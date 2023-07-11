@@ -1164,3 +1164,14 @@ footer {
 }
 
 /* <----------------------Our Clients css--------------------------------> */
+/* <----------------------contact us 2 css--------------------------------> */
+.main-btn {
+  background-color: var(--white-color);
+  color: var(--text-gray);
+  border-radius: 10px;
+  border: 1px solid orange;
+}
+.main-btn:hover {
+  color: var(--secondry-color);
+}
+/* <----------------------contact us 2 css--------------------------------> */
