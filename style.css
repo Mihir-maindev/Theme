@@ -33,6 +33,18 @@ body {
   --font-size-lg: 18px;
   --font-size-4xs: 9px;
 }
+/*----------------------CUSTOM CSS START---------------------*/
+.section-gap {
+  height: 80px;
+}
+.protect-section {
+  margin-top: -50px;
+}
+.protect-container {
+  background-color: white;
+  box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.15);
+}
+/*----------------------CUSTOM CSS END---------------------*/
 .orane-text-30 {
   font-size: 30px;
   font-weight: var(--font-bold);
@@ -105,27 +117,11 @@ body {
 }
 .logo {
   font-family: "Inter", sans-serif;
-  /* border: 1px solid black; */
   width: fit-content;
   font-weight: bold;
   font-size: 40px;
 }
-.navbar {
-  display: flex;
-  list-style: none;
-}
-.Nav {
-  /* border: 1px solid black; */
-  font-family: "Inter", sans-serif;
-  font-weight: bold;
-  margin: 15px;
-}
-.Nav:hover {
-  color: var(--secondry-color);
-}
-.Nav:last-child {
-  margin-right: 0;
-}
+
 .hero {
   background-image: url(images/wooden-judges-gavel-table-courtroom-enforcement-office.jpg);
   height: 686px;
@@ -144,13 +140,14 @@ body {
 .title1 {
   color: #ffffff;
 }
+.nav-hover:hover {
+  color: var(--secondry-color) !important;
+}
 .Maintitle {
   display: flex;
   font-size: 60px;
   font-family: "Inter", sans-serif;
   font-weight: bold;
-  /* border: 1px solid red; */
-  /* width: 450px; */
   line-height: 42px;
 }
 .under-line {
@@ -178,11 +175,12 @@ body {
   display: flex;
   justify-content: center;
 }
-.section-2 {
+/* .section-2 {
   width: 1244px;
   height: 444px;
   display: flex;
-}
+box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.15);
+} */
 
 .info-box-btn {
   width: 162px;
@@ -199,16 +197,12 @@ body {
   padding-left: 20px;
   height: 100%;
 }
-.main-info-card {
-  /* border: 1px solid black; */
-  margin-top: 30px;
-}
-.main-info-imgbox {
-  /* border: 1px solid black; */
+/* .main-info-imgbox {
+  border: 1px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 .info-box-text-1 {
   color: var(--secondry-color);
   font-family: var(--primary-font);
@@ -229,30 +223,27 @@ body {
   line-height: 28px;
 }
 .home-image-1 {
-  width: 612px;
+  width: 100%;
   height: 253px;
-  background-image: url(images/444.jpeg);
+  /* background-image: url(images/444.jpeg); */
   object-fit: cover;
-  background-color: rgba(0, 0, 0, 0.4);
-  background-blend-mode: multiply;
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  /* background-blend-mode: multiply; */
 }
-.main-image {
-  height: 253px;
-  width: 612px;
-}
-.section-2 {
+/* .section-2 {
   margin-top: -65px;
   background-color: var(--white-color);
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
   margin-bottom: 55px;
-}
+} */
 .section-3 {
-  width: 100%;
-  height: 312px;
+  /* height: 312px; */
+  /* width: 100%; */
   /* border: 1px solid black; */
-  display: flex;
+  /* display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: center; */
+  padding: 50px 0px;
   background-image: url(images/Event\ 5.jpg);
   background-color: rgba(0, 0, 0, 0.8);
   background-blend-mode: multiply;
@@ -262,7 +253,7 @@ body {
 }
 .section-box-1 {
   border: 1px solid var(--white-color);
-  width: 230px;
+  /* width: 230px; */
   height: 250px;
   display: flex;
   justify-content: center;
@@ -270,16 +261,14 @@ body {
 }
 .section-box-1:hover {
   border: 2px solid var(--secondry-color);
-  height: 255px;
 }
 
-.section-sub {
+/* .section-sub {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 1200px;
-  /* border: 1px solid black; */
-}
+} */
 .sub-1 {
   /* border: 1px solid green; */
   width: 229px;

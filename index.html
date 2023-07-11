@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Oscorp</title>
+    <!-- <link rel="icon" type="image/x-icon" href="/images/" /> -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -10,7 +12,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
-    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -23,33 +24,38 @@
 
   <body>
     <!----------------------------------Main Container Section------------------>
-    <div class="container-fluid g-0">
+    <div>
       <!----------------------------------Navbar Section------------------>
 
       <!-- </header> -->
       <section id="header"></section>
       <!--------------------------- section-1 top-banner start------------------------>
-      <section class="row hero">
-        <div class="col-12 flex-column hero-section">
-          <div class="Maintitle">
-            <p class="title">Oscorp</p>
-            <p class="title1">Atorny</p>
-          </div>
-          <div class="under-line"></div>
-          <div class="description mt-4">
-            “Justice Delivered Advocacy Defined”
+      <section class="hero">
+        <div class="container-fluid h-100">
+          <div class="row h-100 flex-center">
+            <div class="col-12 flex-column hero-section">
+              <div class="Maintitle">
+                <p class="title">Oscorp</p>
+                <p class="title1">Atorny</p>
+              </div>
+              <div class="under-line"></div>
+              <div class="description mt-4">
+                “Justice Delivered Advocacy Defined”
+              </div>
+            </div>
           </div>
         </div>
       </section>
       <!--------------------------- section-1 top-banner end ------------------------>
-      <section class="row main-info">
-        <div class="info-box">
-          <div class="section-2">
-            <div class="col-5 main-info-card">
-              <div class="des-box">
+      <section class="protect-section">
+        <div class="container-lg container-fluid protect-container p-lg-5 p-3">
+          <div class="row align-items-center flex-lg-row flex-column-reverse">
+            <!-- <div class="section-2"> -->
+            <div class="col-lg-6">
+              <div>
                 <p class="info-box-text-1">We Know</p>
                 <p class="info-box-text-2">How to Protect</p>
-                <p class="info-box-description">
+                <p class="info-box-description p-2">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Laboriosam inventore, atque voluptate est iure accusamus alias
                   dolores a distinctio corporis nostrum eum earum quaerat
@@ -60,7 +66,7 @@
                 <button class="info-box-btn">Explore More</button>
               </div>
             </div>
-            <div class="col-7 main-info-imgbox">
+            <div class="col-lg-6 main-info-imgbox">
               <div class="main-image">
                 <img
                   class="home-image-1"
@@ -69,73 +75,85 @@
                 />
               </div>
             </div>
+            <!-- </div> -->
           </div>
         </div>
       </section>
+      <div class="section-gap"></div>
       <section>
         <div class="section-3">
-          <div class="section-sub">
-            <div class="section-box-1">
-              <div class="sub-1">
-                <div class="icon-head">
-                  <div class="icon-box">
-                    <img src="/icon/icons8-flow-chart-50.png" alt="" />
+          <div class="container h-100">
+            <div class="row align-items-center h-100">
+              <div class="col-lg-3 col-md-6 mb-4">
+                <div class="section-box-1">
+                  <div class="sub-1">
+                    <div class="icon-head">
+                      <div class="icon-box">
+                        <img src="/icon/icons8-flow-chart-50.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="text-box">
+                      <p class="sec-3-text">Representation</p>
+                      <p class="sec-3-desc">
+                        Ispendisse consectetur fringilla luctus usce id mi diam,
+                        non ornare.
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div class="text-box">
-                  <p class="sec-3-text">Representation</p>
-                  <p class="sec-3-desc">
-                    Ispendisse consectetur fringilla luctus usce id mi diam, non
-                    ornare.
-                  </p>
                 </div>
               </div>
-            </div>
-            <div class="section-box-1">
-              <div class="sub-1">
-                <div class="icon-head">
-                  <div class="icon-box">
-                    <img src="/icon/idea .png" alt="idea-sharing" />
+              <div class="col-lg-3 col-md-6 mb-4">
+                <div class="section-box-1">
+                  <div class="sub-1">
+                    <div class="icon-head">
+                      <div class="icon-box">
+                        <img src="/icon/idea .png" alt="idea-sharing" />
+                      </div>
+                    </div>
+                    <div class="text-box">
+                      <p class="sec-3-text">Advise</p>
+                      <p class="sec-3-desc">
+                        Ispendisse consectetur fringilla luctus usce id mi diam,
+                        non ornare.
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div class="text-box">
-                  <p class="sec-3-text">Advise</p>
-                  <p class="sec-3-desc">
-                    Ispendisse consectetur fringilla luctus usce id mi diam, non
-                    ornare.
-                  </p>
                 </div>
               </div>
-            </div>
-            <div class="section-box-1">
-              <div class="sub-1">
-                <div class="icon-head">
-                  <div class="icon-box">
-                    <img src="/icon/support.png" alt="idea-sharing" />
+              <div class="col-lg-3 col-md-6 mb-4">
+                <div class="section-box-1">
+                  <div class="sub-1">
+                    <div class="icon-head">
+                      <div class="icon-box">
+                        <img src="/icon/support.png" alt="idea-sharing" />
+                      </div>
+                    </div>
+                    <div class="text-box">
+                      <p class="sec-3-text">Fast Support</p>
+                      <p class="sec-3-desc">
+                        Ispendisse consectetur fringilla luctus usce id mi diam,
+                        non ornare.
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div class="text-box">
-                  <p class="sec-3-text">Fast Support</p>
-                  <p class="sec-3-desc">
-                    Ispendisse consectetur fringilla luctus usce id mi diam, non
-                    ornare.
-                  </p>
                 </div>
               </div>
-            </div>
-            <div class="section-box-1">
-              <div class="sub-1">
-                <div class="icon-head">
-                  <div class="icon-box">
-                    <img src="/icon/idea .png" alt="idea-sharing" />
+              <div class="col-lg-3 col-md-6 mb-4">
+                <div class="section-box-1">
+                  <div class="sub-1">
+                    <div class="icon-head">
+                      <div class="icon-box">
+                        <img src="/icon/idea .png" alt="idea-sharing" />
+                      </div>
+                    </div>
+                    <div class="text-box">
+                      <p class="sec-3-text">Easy Talk</p>
+                      <p class="sec-3-desc">
+                        Ispendisse consectetur fringilla luctus usce id mi diam,
+                        non ornare.
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div class="text-box">
-                  <p class="sec-3-text">Easy Talk</p>
-                  <p class="sec-3-desc">
-                    Ispendisse consectetur fringilla luctus usce id mi diam, non
-                    ornare.
-                  </p>
                 </div>
               </div>
             </div>
