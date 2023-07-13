@@ -402,7 +402,7 @@ box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.15);
 .testi-bg {
   background-color: #aaaaaa47;
   /* border: 1px solid red; */
-  height: 587px;
+  /* height: 587px; */
   margin-top: 5rem;
 }
 .testimonial {
@@ -420,7 +420,7 @@ box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.15);
   /* border: 1px solid black; */
   max-width: 1244px;
   margin: 0 auto;
-  height: 374px;
+  /* height: 374px; */
   display: flex;
   justify-content: space-between;
 }
@@ -429,6 +429,7 @@ box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.15);
   /* border: 1px solid red; */
   width: 370px;
   background-color: var(--white-color);
+  margin: 0 auto;
 }
 .sub-box-img {
   display: flex;
@@ -465,13 +466,13 @@ box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.15);
 .testi-text {
   font-size: var(--font-size-4xs);
 }
-.change-btn {
+/* .change-btn {
   height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-around;
-}
+} */
 .sub-btn-box {
   display: flex;
   justify-content: center;
@@ -522,10 +523,10 @@ box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.15);
 }
 .boxes-a {
   /* border: 1px solid black; */
-  width: 250px;
+  /* width: 250px; */
   height: 190px;
-  background-color: var(--white-color);
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+  /* background-color: var(--white-color); */
+  /* box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15); */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

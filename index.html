@@ -13,6 +13,8 @@
     />
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css"
@@ -259,10 +261,13 @@
         </div>
       </section>
       <section class="container-fluid testi-bg">
-        <div class="row testimonial">
+        <div class="row testimonial pb-5">
           <p class="testi-title">WHAT PEOPLE SAY ABOUT US...</p>
-          <div class="testi-cards">
-            <div class="card-profile-testi col-4">
+          <div
+            class="testi-cards owl-carousel owl-theme"
+            id="home1-testimonial"
+          >
+            <div class="card-profile-testi col-4 py-3">
               <div class="sub-box-img">
                 <div class="box-img-1 box-i"></div>
               </div>
@@ -273,7 +278,7 @@
               <p class="testi-title1">John Marco</p>
               <p class="testi-text">CEO, alan Software</p>
             </div>
-            <div class="card-profile-testi col-4">
+            <div class="card-profile-testi col-4 py-3">
               <div class="sub-box-img">
                 <div class="box-img-2 box-i"></div>
               </div>
@@ -284,7 +289,7 @@
               <p class="testi-title1">Elish joi</p>
               <p class="testi-text">CEO, alan Software</p>
             </div>
-            <div class="card-profile-testi col-4">
+            <div class="card-profile-testi col-4 py-3">
               <div class="sub-box-img">
                 <div class="box-img-3 box-i"></div>
               </div>
@@ -295,12 +300,38 @@
               <p class="testi-title1">Alan Walker</p>
               <p class="testi-text">CEO, alan Software</p>
             </div>
-          </div>
-          <div class="change-btn">
-            <div class="sub-btn-box">
-              <div class="lw-btn b-a"></div>
-              <div class="lw-btn b-b"></div>
-              <div class="lw-btn b-c"></div>
+            <div class="card-profile-testi col-4 py-3">
+              <div class="sub-box-img">
+                <div class="box-img-1 box-i"></div>
+              </div>
+              <p class="testi-desc">
+                Lorem ipsum dolor sit amet, consecte adipiscing elit.
+                Suspendisse condimentum porttitor cursumus.
+              </p>
+              <p class="testi-title1">John Marco</p>
+              <p class="testi-text">CEO, alan Software</p>
+            </div>
+            <div class="card-profile-testi col-4 py-3">
+              <div class="sub-box-img">
+                <div class="box-img-2 box-i"></div>
+              </div>
+              <p class="testi-desc">
+                Lorem ipsum dolor sit amet, consecte adipiscing elit.
+                Suspendisse condimentum porttitor cursumus.
+              </p>
+              <p class="testi-title1">Elish joi</p>
+              <p class="testi-text">CEO, alan Software</p>
+            </div>
+            <div class="card-profile-testi col-4 py-3">
+              <div class="sub-box-img">
+                <div class="box-img-3 box-i"></div>
+              </div>
+              <p class="testi-desc">
+                Lorem ipsum dolor sit amet, consecte adipiscing elit.
+                Suspendisse condimentum porttitor cursumus.
+              </p>
+              <p class="testi-title1">Alan Walker</p>
+              <p class="testi-text">CEO, alan Software</p>
             </div>
           </div>
         </div>
@@ -325,54 +356,92 @@
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
             </p>
           </div>
-          <div class="faci-box-menu">
-            <div class="boxes-a box-mar">
-              <div class="icon-space">
-                <img src="icon/Place Marker.png" alt="facility-icon" />
+          <div
+            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4"
+          >
+            <div class="col">
+              <div class="card h-100">
+                <div class="boxes-a">
+                  <div class="icon-space">
+                    <img src="icon/Place Marker.png" alt="facility-icon" />
+                  </div>
+                  <p class="faci-text">Our Address</p>
+                </div>
               </div>
-              <p class="faci-text">Our Address</p>
             </div>
-            <div class="boxes-a box-mar">
-              <div class="icon-space">
-                <img src="icon/protect.png" alt="facility-icon" />
+            <div class="col">
+              <div class="card h-100">
+                <div class="boxes-a">
+                  <div class="icon-space">
+                    <img src="icon/bully-50.png" alt="facility-icon" />
+                  </div>
+                  <p class="faci-text">Violence Law</p>
+                </div>
               </div>
-              <p class="faci-text">Insurance Law</p>
             </div>
-            <div class="boxes-a box-mar">
-              <div class="icon-space">
-                <img src="icon/bully-50.png" alt="facility-icon" />
+            <div class="col">
+              <div class="card h-100">
+                <div class="boxes-a">
+                  <div class="icon-space">
+                    <img
+                      src="icon/online-shopping-50.png"
+                      alt="facility-icon"
+                    />
+                  </div>
+                  <p class="faci-text">Ecommerce Law</p>
+                </div>
               </div>
-              <p class="faci-text">Violence Law</p>
             </div>
-            <div class="boxes-a box-mar">
-              <div class="icon-space">
-                <img src="icon/online-shopping-50.png" alt="facility-icon" />
+            <div class="col">
+              <div class="card h-100">
+                <div class="boxes-a">
+                  <div class="icon-space">
+                    <img src="icon/meeting-room-50.png" alt="facility-icon" />
+                  </div>
+                  <p class="faci-text">Corporate Law</p>
+                </div>
               </div>
-              <p class="faci-text">Ecommerce Law</p>
             </div>
-            <div class="boxes-a">
-              <div class="icon-space">
-                <img src="icon/meeting-room-50.png" alt="facility-icon" />
+
+            <div class="col">
+              <div class="card h-100">
+                <div class="boxes-a">
+                  <div class="icon-space">
+                    <img src="icon/protect.png" alt="facility-icon" />
+                  </div>
+                  <p class="faci-text">Insurance Law</p>
+                </div>
               </div>
-              <p class="faci-text">Corporate Law</p>
             </div>
-            <div class="boxes-a">
-              <div class="icon-space">
-                <img src="icon/rent-50.png" alt="facility-icon" />
+            <div class="col">
+              <div class="card h-100">
+                <div class="boxes-a">
+                  <div class="icon-space">
+                    <img src="icon/rent-50.png" alt="facility-icon" />
+                  </div>
+                  <p class="faci-text">Real Estate Law</p>
+                </div>
               </div>
-              <p class="faci-text">Real Estate Law</p>
             </div>
-            <div class="boxes-a">
-              <div class="icon-space">
-                <img src="icon/resume-50.png" alt="facility-icon" />
+            <div class="col">
+              <div class="card h-100">
+                <div class="boxes-a">
+                  <div class="icon-space">
+                    <img src="icon/resume-50.png" alt="facility-icon" />
+                  </div>
+                  <p class="faci-text">Employment Law</p>
+                </div>
               </div>
-              <p class="faci-text">Employment Law</p>
             </div>
-            <div class="boxes-a">
-              <div class="icon-space">
-                <img src="icon/guardian-50.png" alt="facility-icon" />
+            <div class="col">
+              <div class="card h-100">
+                <div class="boxes-a">
+                  <div class="icon-space">
+                    <img src="icon/guardian-50.png" alt="facility-icon" />
+                  </div>
+                  <p class="faci-text">Family Law</p>
+                </div>
               </div>
-              <p class="faci-text">Family Law</p>
             </div>
           </div>
         </div>
@@ -401,5 +470,8 @@
         $("#footer").load("footer.html");
       });
     </script>
+    <script src="./js/owl.carousel.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
