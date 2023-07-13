@@ -785,9 +785,9 @@ footer {
 .one-title {
   font-size: var(--font-size-6xl);
 }
-.sec-5-prac {
+/* .sec-5-prac {
   margin-top: 100px;
-}
+} */
 .def-info {
   height: 100%;
 }
@@ -809,6 +809,7 @@ footer {
   width: 50%;
   background-image: url(images/compressimage/defence.jpg);
   background-size: contain;
+  background-repeat: no-repeat;
 }
 .low-sub {
   height: 100px;
@@ -821,7 +822,6 @@ footer {
 }
 .last-con {
   background-color: #e6e6e6;
-  height: 330px;
 }
 
 .card-inn {
@@ -839,13 +839,10 @@ footer {
 .lw-txt {
   font-size: var(--font-size-sm);
 }
-.main-card-sub {
+/* .main-card-sub {
   position: relative;
   top: 15px;
-}
-.firm-text {
-  padding-top: 60px;
-}
+} */
 
 /* <----------------------Our Team css--------------------------------> */
 
