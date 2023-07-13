@@ -709,11 +709,11 @@ footer {
   height: 250px;
 }
 .mysub {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
 }
 .text-info {
-  height: 70px;
+  /* height: 70px; */
   width: 270px;
   background-color: #555;
 }
@@ -920,9 +920,7 @@ footer {
 .sec-1-cont {
   background-color: #e6e6e6;
 }
-.cont-box-left {
-  height: 600px;
-}
+
 .cont-box-right {
   background-image: url(images/compressimage/contactmain.jpg);
 }
